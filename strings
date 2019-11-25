@@ -1,0 +1,7 @@
+str1 = 'Hello world!'
+str2 = "Big poop"
+
+print str1[0:5] + str1[11]
+print "I need to go", str2[4:]
+
+print "Special characters like dd\bd and \nlet you use a new line"
