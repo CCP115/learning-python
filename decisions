@@ -1,0 +1,25 @@
+condition = True
+
+if (condition == True) :
+    print "True"
+elif (condition == False) :
+    print condition
+else :
+    print "How did you even get here?"
+
+while (condition == True):
+    condition = False
+    print "Condition set to false"
+else:
+    print condition
+
+list = ['apple', 'orange', 'banana']
+
+for fruit in list:
+    print fruit
+
+list2 = ['your', 'mum', 'gay', 'gottem']
+
+for index in range(len(list2)):
+    print index
+    print list2[index]

@@ -1,0 +1,23 @@
+print("Hello, World!")
+
+intNum = 12
+floatNum = 6.9
+
+print "Our integer number is ", intNum
+print 'Our floating point number is',floatNum
+
+str = "Example String XD"
+#E X A M P L E _ S T R  I  N  G  _  X  D
+#0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+#                             -4 -3 -2 -1
+print str
+print str[0]
+print str[8:]
+print str[15:17]
+print str[-2]
+print str[-2:] + ' Yeed'
+
+list = [12, 6.9, 'john', 5+6j]
+print list
+print list[0]
+print list[1:]

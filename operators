@@ -1,0 +1,17 @@
+a = 10
+b = 6.9
+c = 5+6j
+
+print "Addition:"
+print a+b
+print b+c
+print a+c
+
+print a*b
+print a*c
+print b*c
+
+print b/a
+
+print b%a
+print c%a
